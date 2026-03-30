@@ -59,6 +59,12 @@
         color: #0b1f4d;
       }
 
+      .card h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+        color: #0b1f4d;
+      }
+
       .card p {
         font-size: 15px;
         line-height: 1.6;
@@ -119,8 +125,8 @@
         background-image: url("instagram.png");
       }
 
-      .buttons a.google::before {
-        background-image: url("google.png");
+      .buttons a.whatsapp::before {
+        background-image: url("whatsapp.png");
       }
 
       .buttons a:hover::before,
@@ -159,9 +165,9 @@
         margin-right: 12px;
       }
 
-      .buttons a.google:hover::before,
-      .buttons a.google:focus-visible::before,
-      .buttons a.google:active::before {
+      .buttons a.whatsapp:hover::before,
+      .buttons a.whatsapp:focus-visible::before,
+      .buttons a.whatsapp:active::before {
         opacity: 0.95;
         width: 22px;
         transform: scale(1);
@@ -192,10 +198,10 @@
         box-shadow: 0 14px 28px rgba(225, 48, 108, 0.35);
       }
 
-      .buttons a.google:hover,
-      .buttons a.google:focus-visible {
-        background: #db4437;
-        box-shadow: 0 14px 28px rgba(219, 68, 55, 0.35);
+      .buttons a.whatsapp:hover,
+      .buttons a.whatsapp:focus-visible {
+        background: #25d366;
+        box-shadow: 0 14px 28px rgba(37, 211, 102, 0.35);
       }
 
       .buttons a.join {
@@ -222,10 +228,8 @@
         box-shadow: none;
       }
 
-      .footer-note {
-        margin-top: 22px;
-        font-size: 12px;
-        color: #6d7c99;
+      .catalog-buttons {
+        margin: 6px 0 18px;
       }
 
       @media (max-width: 600px) {
@@ -245,6 +249,10 @@
           font-size: 24px;
         }
 
+        .card h2 {
+          font-size: 24px;
+        }
+
         .buttons a {
           padding: 15px 16px;
           font-size: 15px;
@@ -259,14 +267,20 @@
 
     <div class="wrapper">
       <div class="card">
+        <h2>Profesyonel Görüntüleme Sistemlerimiz</h2>
+        <div class="buttons catalog-buttons">
+          <a href="Savunma%20Sanayi%20Ekranlar%C4%B1.pdf" target="_blank" rel="noopener noreferrer">TOCHI Savunma Sanayi Ekranları</a>
+          <a href="Profesyonel%20G%C3%B6r%C3%BCnt%C3%BCleme%20Sistemleri.pdf" target="_blank" rel="noopener noreferrer">TOCHI Profesyonel Görüntüleme Sistemleri</a>
+        </div>
+
         <h1>Bize Ulaşın</h1>
         <p>Kurumsal hesaplarımıza ve bağlantılarımıza aşağıdaki butonlardan hızlıca ulaşabilirsiniz.</p>
 
         <div class="buttons">
-          <a class="facebook" href="https://www.facebook.com/p/erpateknoloji-100068405018825/" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a class="facebook" href="https://www.facebook.com/p/erpateknoloji-100068405018825/" target="_self" rel="noopener noreferrer">Facebook</a>
           <a class="linkedin" href="https://www.linkedin.com/company/erpa-teknoloji" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <a class="instagram" href="https://www.instagram.com/erpa.teknoloji/" target="_blank" rel="noopener noreferrer">Instagram</a>
-          <a class="google" href="https://share.google/00NActwhe2pKArfIB" target="_blank" rel="noopener noreferrer">Google Yorumlar</a>
+          <a class="whatsapp" href="https://wa.me/905322893679" target="_blank" rel="noopener noreferrer">WhatsApp</a>
           <a class="join" href="https://docs.google.com/forms/d/1fK5Dn1eebFqX_4Pz_NjS-MSwmHbhYLBLMcEo_IPbqAc/edit" target="_blank" rel="noopener noreferrer">Sende Bize Katıl</a>
         </div>
       </div>
