@@ -100,17 +100,17 @@
       .buttons a::before {
         content: "";
         display: block;
-        width: 0; /* ikon aktif değilken yer kaplamasın */
+        width: 0;
         height: 22px;
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
-        opacity: 0; /* sadece hover/aktif olunca görünsün */
+        opacity: 0;
         transform: scale(0.92);
         transition: opacity 0.2s ease, transform 0.2s ease;
         margin-right: 0;
         flex-shrink: 0;
-        pointer-events: none; /* mobilde dokunuşu butondan almasın */
+        pointer-events: none;
       }
 
       .buttons a.facebook::before {
@@ -132,7 +132,7 @@
       .buttons a:hover::before,
       .buttons a:focus-visible::before,
       .buttons a:active::before {
-        opacity: 0; /* ikonsuz butonlarda yer kayması olmasın */
+        opacity: 0;
         width: 0;
         transform: scale(0.92);
         margin-right: 0;
@@ -222,7 +222,6 @@
       .buttons a.join:hover,
       .buttons a.join:focus-visible,
       .buttons a.join:active {
-        /* Renk değişmesin; sadece büyüsün */
         background: #e5221f;
         transform: scale(1.03);
         box-shadow: none;
@@ -267,12 +266,6 @@
 
     <div class="wrapper">
       <div class="card">
-        <h2>Profesyonel Görüntüleme Sistemlerimiz</h2>
-        <div class="buttons catalog-buttons">
-          <a href="Savunma%20Sanayi%20Ekranlar%C4%B1.pdf" target="_blank" rel="noopener noreferrer">TOCHI Savunma Sanayi Ekranları</a>
-          <a href="Profesyonel%20G%C3%B6r%C3%BCnt%C3%BCleme%20Sistemleri.pdf" target="_blank" rel="noopener noreferrer">TOCHI Profesyonel Görüntüleme Sistemleri</a>
-        </div>
-
         <h1>Bize Ulaşın</h1>
         <p>Kurumsal hesaplarımıza ve bağlantılarımıza aşağıdaki butonlardan hızlıca ulaşabilirsiniz.</p>
 
@@ -287,4 +280,3 @@
     </div>
   </body>
 </html>
-
